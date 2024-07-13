@@ -1,0 +1,105 @@
+/* global styling */
+* {
+  box-sizing: border-box;
+}
+
+/* top bar styling */
+
+.top-bar {
+  z-index: 99;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  background-color: #f7785b;
+  display: flex;
+  direction: rtl;
+  align-items: flex-start;
+  padding-right: 10vw;
+  /* justify-content: space-around; */
+  
+  padding-top: 3vh;
+  gap: 4.5vw;
+}
+
+.top-bar .item2 {
+  
+  width: fit-content;
+  
+  position: static;
+  cursor: pointer;
+}
+
+.item{
+  top: 0px;
+  position: absolute; 
+  left: 0px;
+  background-color: black;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 3vh;
+  height: inherit;
+}
+
+a span{
+  text-decoration: none;
+}
+
+a span {
+  color: black;
+}
+
+a span:hover {
+   
+    color: rgb(57, 162, 41);
+    transition-duration: 100ms;
+    text-decoration: none;
+}
+/* page styling */
+
+.container {
+  margin-top: 10vh;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.divo {
+  
+  border-radius: 10%;
+  width: 30vw;
+  height: 60vh;
+  margin: 10px;
+  background: rgb(92, 173, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(92, 173, 254, 1) 0%,
+    rgba(0, 212, 255, 1) 72%,
+    rgba(255, 255, 255, 1) 96%
+  );
+  border: #f7785b 2px solid;
+  overflow: hidden;
+}
+
+.divo .grace {
+  width: 100%;
+  height: 15%;
+  margin-top: 90%;
+  border-radius: 95%;
+}
+
+.divo .product {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  margin-left: 25%;
+  bottom: 35vh;
+}
+.divo .product img {
+  position: static;
+  border-radius: 50%;
+  width: 50%;
+  height: 100%;
+  border-radius: 20%;
+}
